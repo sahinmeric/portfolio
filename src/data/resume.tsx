@@ -227,6 +227,11 @@ export const DATA = {
       ],
       links: [
         {
+          type: "Live",
+          href: "https://celebrated-bubblegum-b0c618.netlify.app/register",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
           type: "Source",
           href: "https://github.com/sahinmeric/konecta-crm-app",
           icon: <Icons.github className="size-3" />,
