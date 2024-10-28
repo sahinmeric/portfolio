@@ -465,21 +465,76 @@ export const DATA = {
       location: "CertJoin",
       description:
         "The Ethical Hacking Certified Associate (EHCA) badge certifies your foundational knowledge in ethical hacking. It serves as evidence of your comprehensive understanding and technical proficiency to conduct penetration testing on an organization's computer infrastructure. By earning this badge, you demonstrate your capability to identify vulnerabilities, assess potential risks, and implement effective security measures to protect sensitive information and ensure the integrity of computer systems.",
-      image: "/hacking_etico.png",
+      image: "/certjoin.png",
       win: "",
       mlh: "",
       links: [
         {
-          title: "Badge",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://api.badgr.io/public/assertions/hic5rFZkQFOjqiqx-eID9Q",
-        },
-        {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "/certificate_certjoin.pdf",
+          href: "/certificate_certjoin.png",
         },
       ],
     },
+    {
+      title: "Google Cybersecurity Professional Certificate",
+      dates: "August 2024",
+      location: "Coursera",
+      description:
+        "Include hands-on, practicebased assessments and are designed to prepare them for entry-level roles in cybersecurity. They are competent in beginner-level Python, Linux, SQL, Security Information and Event Management (SIEM) tools, and Intrusion Detection Systems (IDS). They know how to identify common cybersecurity risks, threats, and vulnerabilities, as well as the techniques to mitigate.",
+      image: "/coursera.png",
+      win: "",
+      mlh: "",
+      links: [
+        {
+          title: "Certificate",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "/coursera_cybersecurity.png",
+        },
+      ],
+    },
+    {
+      title: "Ethical Hacking (Red, Blue & Purple Team)",
+      dates: "July 2024",
+      location: "UdeCataluña",
+      description:
+        "Understand the concepts, types, and phases of Ethical Hacking. Learn about tools, techniques, and methodologies that help identify vulnerabilities and information security flaws within an organization, with a focus on professional ethics. Define offensive and defensive security as represented by highly sought-after roles in the industry (Red, Blue & Purple Team).",
+      image: "/ude.png",
+      win: "",
+      mlh: "",
+      links: [
+        {
+          title: "Certificate",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "/udecataluna_hacking_etico.png",
+        },
+      ],
+    },
+    // {
+    //   title: "Project Management",
+    //   dates: "July 2024",
+    //   location: "UdeCataluña",
+    //   description:
+    //     "La gerencia de proyectos es una de las habilidades más solicitadas en las empresas, porque integra los diferentes procesos para llevar a cabo una labor, en la cual debe haber un equilibrio entre el alcance, cronograma y costo para la realización exitosa de este. Este diplomado se basa en el cumplimiento de esta necesidad y con total apoyo de los lineamientos del Project Management Institute (PMI)® a través sus estándares y esquemas de certificación.",
+    //   image: "/ude.png",
+    //   win: "",
+    //   mlh: "",
+    // },
+    // {
+    //   title: "Full-stack Software Development",
+    //   dates: "July 2022",
+    //   location: "Holberton Schools - Uruguay",
+    //   description: "",
+    //   image: "/holberton.png",
+    //   win: "",
+    //   mlh: "",
+    //   links: [
+    //     {
+    //       title: "Certificate",
+    //       icon: <Icons.globe className="h-4 w-4" />,
+    //       href: "/holberton.png",
+    //     },
+    //   ],
+    // },
   ],
 } as const;
