@@ -104,13 +104,14 @@ export const DATA = {
       start: "Oct 2022",
       end: "Jul 2024",
       description:
-        "Contributed to a U.S.-based startup's mental healthcare platform, elevating user experience through the implementation of advanced web technologies and innovative design solutions.",
+        "Contributed to a U.S.-based startup's mental healthcare platform by:",
       tasks: [
-        "Developed scalable and reusable React components.",
-        "Enhanced code robustness with TypeScript.",
-        "Optimized app performance and state management using React-query.",
-        "Created responsive, mobile-friendly designs with Material UI.",
-        "Ensured efficient, high-quality Agile deliveries with Git and BitBucket.",
+        "Building scalable, maintainable React components using hooks.",
+        "Increasing code robustness with TypeScript and Jest.",
+        "Optimizing app performance, state management with React-query.",
+        "Designing responsive, mobile-friendly UI with Material UI.",
+        "Integrating RESTful APIs (Twilio, Stripe..) for seamless data flow.",
+        "Maintaining high-quality Agile workflows with Git and Bitbucket.",
       ],
     },
     {
@@ -118,15 +119,35 @@ export const DATA = {
       href: "https://globant.com",
       badges: [],
       location: "Remote",
-      title: "QA Analyst",
+      title: "Back-end developer",
       logoUrl: "./globant-logo-dark.svg",
-      start: "Jun 2022",
+      start: "Oct 2021",
       end: "Oct 2022",
-      description:
-        "Executed testing, identified bugs, and reported issues via JIRA. Managed test plans in an Agile environment, ensuring high-quality product releases through detailed quality assurance processes.",
+      description: "Contributed to backend services and infrastructure by:",
       tasks: [
-        "Performed testing, identifying and reporting bugs via JIRA.",
-        "Created and managed test plans in an Agile environment to ensure high-quality releases.",
+        "Developing scalable RESTful APIs with Node.js and Express.",
+        "Implementing JWT-based authentication for secure user sessions.",
+        "Optimizing data handling and performance with PostgreSQL.",
+        "Automating deployments on AWS (EC2, S3, RDS) using Docker and CI/CD pipelines.",
+        "Maintaining version control and Agile workflows with Git and GitHub.",
+      ],
+    },
+    {
+      company: "Freelance",
+      href: "",
+      badges: [],
+      location: "Remote",
+      title: "Full-stack developer",
+      logoUrl: "./mrc.webp",
+      start: "May 2021",
+      end: "Oct 2021",
+      description:
+        "Completed several small projects on freelance platforms, contributing to both frontend and backend solutions by:",
+      tasks: [
+        "Fixing bugs and enhancing web app performance.",
+        "Updating versions and managing database backups and transfers.",
+        "Setting up servers and deploying applications.",
+        "Developing websites for small businesses for a yoga instructor, a carpenter, and personal portfolio sites.",
       ],
     },
     {
@@ -137,13 +158,31 @@ export const DATA = {
       title: "Sr. Support & Reporting Specialist",
       logoUrl: "./etermax.svg",
       start: "Jan 2016",
-      end: "May 2022",
+      end: "May 2021",
       description:
         "Led process improvements by analyzing HelpDesk data, generating performance reports, and collaborating with developers to resolve technical issues and enhance user support.",
       tasks: [
         "Aided management in defining business objectives, requirements, and performance metrics.",
         "Analyzed HelpDesk data, generated reports, and tracked key performance indicators (KPIs) to drive process improvements.",
         "Collaborated closely with developers to resolve technical issues and develop effective solutions to enhance user support.",
+      ],
+    },
+    {
+      company: "Teksko",
+      href: "",
+      badges: [],
+      location: "On-site",
+      title: "IT Support Specialist",
+      logoUrl: "./teksko.png",
+      start: "Jan 2015",
+      end: "Jan 2016",
+      description:
+        "Provided technical support and troubleshooting for hardware and software issues by:",
+      tasks: [
+        "Assisting users with technical inquiries and resolving issues promptly.",
+        "Configuring and maintaining computer networks and hardware components.",
+        "Performing software installations, upgrades, and updates.",
+        "Training end-users on software applications and best practices.",
       ],
     },
     {
@@ -154,7 +193,7 @@ export const DATA = {
       title: "Textile Engineer",
       logoUrl: "./aster.png",
       start: "Jan 2014",
-      end: "Jan 2016",
+      end: "Jan 2015",
       description:
         "Managed order timelines, developed cost-effective manufacturing strategies, and ensured timely delivery by coordinating schedules and client expectations.",
       tasks: [
@@ -194,6 +233,16 @@ export const DATA = {
       logoUrl: "/holberton.png",
       start: "2021",
       end: "2022",
+    },
+    {
+      school: "Çorlu University",
+      href: "",
+      degree: "Associate's degree of Computer Technology",
+      description:
+        "Focused on networking, hardware, and systems administration, gaining hands-on experience in configuring and maintaining computer networks and hardware components.",
+      logoUrl: "/namik.jpg",
+      start: "2014",
+      end: "2016",
     },
     {
       school: "Marmara University",
