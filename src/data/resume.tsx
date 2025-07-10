@@ -100,9 +100,9 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Front-end developer",
-      logoUrl: "",
+      logoUrl: "./vgm.jpg",
       start: "Oct 2024",
-      end: "",
+      end: "Aug 2025",
       description:
         "Contributed to the development of a global car leasing platform by:",
       tasks: [
