@@ -94,6 +94,27 @@ export const DATA = {
   },
 
   work: [
+     {
+      company: "Voyager Global Mobility",
+      href: "https://vg.joinbuggy.com/",
+      badges: [],
+      location: "Remote",
+      title: "Front-end developer",
+      logoUrl: "",
+      start: "Oct 2024",
+      end: "",
+      description:
+        "Contributed to the development of a global car leasing platform by:",
+      tasks: [
+        "Building scalable, reusable React components for dynamic and responsive interfaces.",
+        "Migrating to functional components with React Hooks for better maintainability.",
+        "Integrating Apollo GraphQL and optimizing performance using useMemo, useCallback, and effective caching strategies.",
+        "Improving UI responsiveness and accessibility using CSS.",
+        "Writing unit tests for components using Jest.",
+        "Collaborating through code reviews, pair programming, and Agile ceremonies.",
+        "Maintaining high code quality with clean code, SOLID, KISS, DRY principles."
+      ],
+    },
     {
       company: "MediSprout",
       href: "https://medisprout.com",
