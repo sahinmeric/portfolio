@@ -278,6 +278,42 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Demand Forecast",
+      href: "https://github.com/sahinmeric/demand-forecast",
+      dates: "2025",
+      active: true,
+      description:
+        "A full-stack forecasting platform for uploading, validating, and analyzing sales data with interactive charts and admin controls.Built with React, TypeScript, Node.js, PostgreSQL, and deployed on Railway using Docker.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Material UI",
+        "Node.js",
+        "Express",
+        "Prisma ORM",
+        "PostgreSQL",
+        "JWT",
+        "Docker",
+        "Docker Compose",
+        "CI/CD with GitHub and Railway"
+      ],
+      links: [
+        {
+          type: "Live",
+          href: "https://demand-forecast-production-6d66.up.railway.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahinmeric/demand-forecast",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/demand_forecast.gif",
+      video: "",
+    },
+    {
       title: "CRM app",
       href: "https://github.com/sahinmeric/konecta-crm-app",
       dates: "2024",
@@ -299,7 +335,7 @@ export const DATA = {
         {
           type: "Live",
           href: "https://celebrated-bubblegum-b0c618.netlify.app/register",
-          icon: <Icons.github className="size-3" />,
+          icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
