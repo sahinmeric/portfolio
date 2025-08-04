@@ -35,3 +35,8 @@ export function formatDate(date: string) {
     return `${fullDate} (${yearsAgo}y ago)`;
   }
 }
+
+export function getCurrentMonthYear(): string {
+  const now = new Date();
+  return now.toLocaleString("en-US", { month: "short", year: "numeric" }); // "Aug 2025"
+}
