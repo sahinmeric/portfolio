@@ -1,5 +1,7 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { getCurrentMonthYear } from "../lib/utils";
+
 
 export const DATA = {
   name: "Sahin Meric",
@@ -102,7 +104,7 @@ export const DATA = {
       title: "Front-end developer",
       logoUrl: "./vgm.jpg",
       start: "Oct 2024",
-      end: "Aug 2025",
+      end: getCurrentMonthYear(),
       description:
         "Contributed to the development of a global car leasing platform by:",
       tasks: [
