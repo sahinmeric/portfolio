@@ -9,7 +9,7 @@ export const DATA = {
   location: "Bogotá, CO",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "I'm a Full-Stack Developer with 3 years of hands-on experience building scalable, user-friendly web applications. I specialize in technologies like React, TypeScript, Node.js, and Python, and enjoy crafting clean, efficient code that solves real-world problems. My passion lies in creating intuitive digital experiences and helping businesses thrive through technology. I bring strong communication skills, a proactive mindset, and a commitment to continuous learning and improvement.",
+    "I'm a Full-Stack Developer with 3 years of experience building scalable, user-friendly web apps using React, TypeScript, Node.js, and Python. I focus on writing clean, efficient code and creating intuitive digital experiences that help businesses grow.",
   summary: "",
   avatarUrl: "/me1.png",
   hardSkills: [
