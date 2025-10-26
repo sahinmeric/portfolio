@@ -1,9 +1,8 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
-import { getCurrentMonthYear } from "../lib/utils";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Sahin Meric",
+  name: "Şahin Meriç",
   initials: "SM",
   url: "https://sahinmeric.com",
   location: "Bogotá, CO",
