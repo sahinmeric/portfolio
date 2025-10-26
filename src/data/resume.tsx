@@ -320,39 +320,6 @@ export const DATA = {
       video: "",
     },
     {
-      title: "CRM app",
-      href: "https://github.com/sahinmeric/konecta-crm-app",
-      dates: "2024",
-      active: true,
-      description:
-        "Konecta CRM is a customer relationship management application that allows users to manage and track interactions with clients effectively. This project provides features for user registration, login, and managing employee data.",
-      technologies: [
-        "React",
-        "Material UI",
-        "Node.js",
-        "Express",
-        "Sequelize",
-        "SQLite",
-        "JWT",
-        "Docker",
-        "Docker Compose",
-      ],
-      links: [
-        {
-          type: "Live",
-          href: "https://celebrated-bubblegum-b0c618.netlify.app/register",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/sahinmeric/konecta-crm-app",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/crm_app.gif",
-      video: "",
-    },
-    {
       title: "tic-tac-toe",
       href: "https://tic-tac-toe-game-df9b7.web.app/",
       dates: "2024",
@@ -516,6 +483,39 @@ export const DATA = {
         },
       ],
       image: "/noimage.png",
+      video: "",
+    },
+    {
+      title: "CRM app",
+      href: "https://github.com/sahinmeric/konecta-crm-app",
+      dates: "2024",
+      active: true,
+      description:
+        "Konecta CRM is a customer relationship management application that allows users to manage and track interactions with clients effectively. This project provides features for user registration, login, and managing employee data.",
+      technologies: [
+        "React",
+        "Material UI",
+        "Node.js",
+        "Express",
+        "Sequelize",
+        "SQLite",
+        "JWT",
+        "Docker",
+        "Docker Compose",
+      ],
+      links: [
+        {
+          type: "Live",
+          href: "https://celebrated-bubblegum-b0c618.netlify.app/register",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahinmeric/konecta-crm-app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/crm_app.gif",
       video: "",
     },
     {
