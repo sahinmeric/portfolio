@@ -100,7 +100,7 @@ export const DATA = {
       href: "https://vg.joinbuggy.com/",
       badges: [],
       location: "Remote",
-      title: "Front-end developer",
+      title: "Full-stack developer",
       logoUrl: "./vgm.jpg",
       start: "Oct 2024",
       end: "Nov 2025",
