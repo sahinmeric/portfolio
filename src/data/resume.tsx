@@ -2,7 +2,6 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 import { getCurrentMonthYear } from "../lib/utils";
 
-
 export const DATA = {
   name: "Sahin Meric",
   initials: "SM",
@@ -96,7 +95,7 @@ export const DATA = {
   },
 
   work: [
-     {
+    {
       company: "Voyager Global Mobility",
       href: "https://vg.joinbuggy.com/",
       badges: [],
@@ -104,7 +103,7 @@ export const DATA = {
       title: "Front-end developer",
       logoUrl: "./vgm.jpg",
       start: "Oct 2024",
-      end: getCurrentMonthYear(),
+      end: "Nov 2025",
       description:
         "Contributed to the development of a global car leasing platform by:",
       tasks: [
@@ -114,7 +113,7 @@ export const DATA = {
         "Improving UI responsiveness and accessibility using CSS.",
         "Writing unit tests for components using Jest.",
         "Collaborating through code reviews, pair programming, and Agile ceremonies.",
-        "Maintaining high code quality with clean code, SOLID, KISS, DRY principles."
+        "Maintaining high code quality with clean code, SOLID, KISS, DRY principles.",
       ],
     },
     {
@@ -298,7 +297,7 @@ export const DATA = {
         "JWT",
         "Docker",
         "Docker Compose",
-        "CI/CD with GitHub and Railway"
+        "CI/CD with GitHub and Railway",
       ],
       links: [
         {
