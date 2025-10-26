@@ -111,6 +111,18 @@ export default function Page() {
           ))}
         </div>
       </section>
+      <section id="languages">
+        <BlurFade delay={BLUR_FADE_DELAY * 9}>
+          <h2 className="text-xl font-bold">Languages</h2>
+        </BlurFade>
+        <div className="flex flex-wrap gap-1">
+          {DATA.languages.map((language, id) => (
+            <BlurFade key={language} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+              <Badge key={language}>{language}</Badge>
+            </BlurFade>
+          ))}
+        </div>
+      </section>
       <section id="projects">
         <BlurFade delay={BLUR_FADE_DELAY * 9}>
           <h2 className="text-xl font-bold">Projects</h2>

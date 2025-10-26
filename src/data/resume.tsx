@@ -48,6 +48,7 @@ export const DATA = {
     "Flexibility / Adaptability",
     "Desire to learn and improve",
   ],
+  languages: ["English", "Spanish", "German", "Turkish"],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     //{ href: "/blog", icon: NotebookIcon, label: "Blog" },
