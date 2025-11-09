@@ -35,3 +35,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.vscode/
+.kiro/settings/mcp.json
+.kiro/hooks/
+.kiro/specs/
+jira-captcha-story.md
