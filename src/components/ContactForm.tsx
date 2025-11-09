@@ -1,15 +1,62 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import { useTheme } from "next-themes";
+import { Turnstile } from "@marsidev/react-turnstile";
+
+// Type definitions for CAPTCHA functionality
+interface CaptchaState {
+  token: string | null;
+  error: string | null;
+}
+
+type TurnstileSuccessCallback = (token: string) => void;
+type TurnstileErrorCallback = () => void;
+type TurnstileExpireCallback = () => void;
 
 export function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<
     "idle" | "success" | "error"
   >("idle");
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
+  const [captchaError, setCaptchaError] = useState<string | null>(null);
+  const turnstileRef = useRef<any>(null);
+
+  const { theme } = useTheme();
+
+  const resetCaptcha = (): void => {
+    setCaptchaToken(null);
+    setCaptchaError(null);
+    if (turnstileRef.current) {
+      turnstileRef.current.reset();
+    }
+  };
+
+  const handleCaptchaSuccess: TurnstileSuccessCallback = (token) => {
+    setCaptchaToken(token);
+    setCaptchaError(null);
+  };
+
+  const handleCaptchaError: TurnstileErrorCallback = () => {
+    setCaptchaError("Verification failed. Please try again");
+    setCaptchaToken(null);
+  };
+
+  const handleCaptchaExpire: TurnstileExpireCallback = () => {
+    setCaptchaToken(null);
+    setCaptchaError("Verification expired. Please verify again");
+  };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    // Validate CAPTCHA before submission
+    if (!captchaToken) {
+      setCaptchaError("Please complete the verification to submit the form");
+      return;
+    }
+
     setIsSubmitting(true);
     setSubmitStatus("idle");
 
@@ -28,6 +75,7 @@ export function ContactForm() {
       if (response.ok) {
         setSubmitStatus("success");
         form.reset();
+        resetCaptcha();
       } else {
         setSubmitStatus("error");
       }
@@ -110,6 +158,41 @@ export function ContactForm() {
             disabled={isSubmitting}
             className="mt-1 block w-full px-4 py-2 border border-input bg-background rounded-md shadow-sm focus:ring-ring focus:border-ring disabled:opacity-50 disabled:cursor-not-allowed"
           />
+        </div>
+
+        {captchaError && (
+          <div
+            className="p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-md"
+            role="alert"
+            aria-live="polite"
+            aria-atomic="true"
+          >
+            <p
+              className="text-red-800 dark:text-red-200 text-center"
+              id="captcha-error"
+            >
+              {captchaError}
+            </p>
+          </div>
+        )}
+
+        <div
+          className="flex justify-center items-center w-full overflow-x-auto"
+          aria-describedby={captchaError ? "captcha-error" : undefined}
+        >
+          <div className="w-full max-w-[300px] sm:max-w-none sm:w-auto">
+            <Turnstile
+              ref={turnstileRef}
+              siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || ""}
+              options={{
+                theme: theme === "dark" ? "dark" : "light",
+                size: "normal",
+              }}
+              onSuccess={handleCaptchaSuccess}
+              onError={handleCaptchaError}
+              onExpire={handleCaptchaExpire}
+            />
+          </div>
         </div>
 
         <div className="flex justify-center">
