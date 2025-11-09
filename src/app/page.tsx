@@ -5,6 +5,7 @@ import { ProjectCard } from "@/components/projectCard";
 import { ResumeCard } from "@/components/resumeCard";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { ContactForm } from "@/components/ContactForm";
 import { DATA } from "@/data/resume";
 
 const BLUR_FADE_DELAY = 0.04;
@@ -176,105 +177,8 @@ export default function Page() {
         <div className="grid items-center justify-center text-center w-full ">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold my-4">Contact me</h2>
-            <section id="contact-me" className="bg-gray-100 py-12">
-              <div className="max-w-3xl mx-auto px-6 lg:px-8">
-                <p className="text-center text-gray-600 mb-12">
-                  Feel free to drop a message for any opportunities or
-                  inquiries!
-                </p>
-                <form
-                  action="https://formspree.io/f/xpwzzved"
-                  method="POST"
-                  className="space-y-6"
-                >
-                  <div>
-                    <label
-                      htmlFor="name"
-                      className="block text-sm font-medium text-gray-700 text-left"
-                    >
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      required
-                      className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
-                    />
-                  </div>
-
-                  <div>
-                    <label
-                      htmlFor="email"
-                      className="block text-sm font-medium text-gray-700 text-left"
-                    >
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      required
-                      className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
-                    />
-                  </div>
-
-                  <div>
-                    <label
-                      htmlFor="message"
-                      className="block text-sm font-medium text-gray-700 text-left"
-                    >
-                      Message
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      rows={4}
-                      required
-                      className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
-                    ></textarea>
-                  </div>
-
-                  <div className="flex justify-center">
-                    <button
-                      type="submit"
-                      className="px-6 py-2 bg-indigo-600 text-white font-semibold rounded-md shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-                    >
-                      Send Message
-                    </button>
-                  </div>
-                </form>
-                <div className="mt-8 text-center">
-                  <p className="text-gray-600">
-                    Or{" "}
-                    <span>
-                      <a
-                        href="mailto:sahinmeric22@gmail.com"
-                        className="text-indigo-600 hover:text-indigo-800"
-                      >
-                        send an e-mail
-                      </a>
-                    </span>{" "}
-                    directly.
-                  </p>
-                  <div className="mt-4">
-                    <a
-                      href="https://linkedin.com/in/sahinmeric"
-                      target="_blank"
-                      className="text-gray-700 mx-2 hover:text-indigo-600"
-                    >
-                      LinkedIn
-                    </a>
-                    <a
-                      href="https://github.com/sahinmeric"
-                      target="_blank"
-                      className="text-gray-700 mx-2 hover:text-indigo-600"
-                    >
-                      GitHub
-                    </a>
-                  </div>
-                </div>
-              </div>
+            <section id="contact-me" className="bg-muted/50 py-12 rounded-lg">
+              <ContactForm />
             </section>
           </BlurFade>
         </div>
