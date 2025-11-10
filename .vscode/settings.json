@@ -1,4 +1,4 @@
 {
   "kiroAgent.configureMCP": "Disabled",
-  "kiroAgent.trustedCommands": ["git *"]
+  "kiroAgent.trustedCommands": ["git *", "npm *"]
 }

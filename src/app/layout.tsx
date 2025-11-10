@@ -1,3 +1,4 @@
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/themeProvider";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -64,6 +65,9 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+        <GoogleAnalytics
+          measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || ""}
+        />
         <ThemeProvider attribute="class" defaultTheme="light">
           <TooltipProvider delayDuration={0}>
             {children}
