@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "I'm a Full-Stack Developer with 3 years of experience building scalable, user-friendly web apps using React, TypeScript, Node.js, and Python. I focus on writing clean, efficient code and creating intuitive digital experiences that help businesses grow.",
   summary: "",
-  avatarUrl: "/me1.png",
+  avatarUrl: "/me2.png",
   hardSkills: [
     "React",
     "TypeScript",
