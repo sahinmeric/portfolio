@@ -284,6 +284,43 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Social Support App",
+      href: "https://github.com/sahinmeric/social-support-app",
+      dates: "2025",
+      active: true,
+      description:
+        "Production-ready government social support application with AI-powered writing assistance. Multi-step form wizard with React, TypeScript, Material UI, OpenAI GPT-3.5, i18n (EN/AR), RTL support, WCAG 2.1 AA accessibility, and 87% test coverage.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Material UI",
+        "OpenAI GPT-3.5",
+        "i18n",
+        "Jest",
+        "React Testing Library",
+        "Cypress",
+        "WCAG 2.1 AA",
+        "Accessibility",
+        "RTL Support",
+        "CI/CD with GitHub",
+      ],
+      links: [
+        {
+          type: "Live",
+          href: "https://sahinmeric.github.io/social-support-app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahinmeric/social-support-app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ssa.gif",
+      video: "",
+    },
+    {
       title: "Demand Forecast",
       href: "https://github.com/sahinmeric/demand-forecast",
       dates: "2025",
