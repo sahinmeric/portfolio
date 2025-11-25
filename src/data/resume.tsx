@@ -108,7 +108,7 @@ export const DATA = {
       title: "Full-stack developer",
       logoUrl: "./vgm.jpg",
       start: "Oct 2024",
-      end: "Nov 2025",
+      end: "Present",
       description:
         "Contributed to the development of a global car leasing platform by:",
       tasks: [
