@@ -6,7 +6,7 @@ export const DATA = {
   initials: "SM",
   url: "https://sahinmeric.com",
   location: "Bogotá, CO",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/bogota",
   description:
     "I'm a Full-Stack Developer with 3 years of experience building scalable, user-friendly web apps using React, TypeScript, Node.js, and Python. I focus on writing clean, efficient code and creating intuitive digital experiences that help businesses grow.",
   summary: "",
@@ -49,8 +49,8 @@ export const DATA = {
   ],
   languages: [
     "English (C1)",
-    "Spanish (B2)",
-    "German (A2)",
+    "Spanish (C1)",
+    "German (A1)",
     "Turkish (Native)",
   ],
   navbar: [
@@ -107,7 +107,7 @@ export const DATA = {
       location: "Remote",
       title: "Full-stack developer",
       logoUrl: "./vgm.jpg",
-      start: "Oct 2024",
+      start: "Nov 2024",
       end: "Present",
       description:
         "Contributed to the development of a global car leasing platform by:",
@@ -128,8 +128,8 @@ export const DATA = {
       location: "Remote",
       title: "Front-end developer",
       logoUrl: "./medisprout_logo.jpg",
-      start: "Oct 2022",
-      end: "Jul 2024",
+      start: "Nov 2022",
+      end: "Jun 2024",
       description:
         "Contributed to a U.S.-based startup's mental healthcare platform by:",
       tasks: [
@@ -146,17 +146,18 @@ export const DATA = {
       href: "https://globant.com",
       badges: [],
       location: "Remote",
-      title: "Back-end developer",
+      title: "Quality Assurance Analyst",
       logoUrl: "./globant-logo-dark.svg",
-      start: "Oct 2021",
-      end: "Oct 2022",
-      description: "Contributed to backend services and infrastructure by:",
+      start: "Aug 2022",
+      end: "Nov 2022",
+      description:
+        "Contributed to high-quality gaming experiences and software stability by:",
       tasks: [
-        "Developing scalable RESTful APIs with Node.js and Express.",
-        "Implementing JWT-based authentication for secure user sessions.",
-        "Optimizing data handling and performance with PostgreSQL.",
-        "Automating deployments on AWS (EC2, S3, RDS) using Docker and CI/CD pipelines.",
-        "Maintaining version control and Agile workflows with Git and GitHub.",
+        "Executing manual game testing to identify critical gameplay and UI defects.",
+        "Managing the bug lifecycle in Jira with proper documentation.",
+        "Documenting test cases in TestRail and maintaining technical specs.",
+        "Validating performance and functionality on console hardware.",
+        "Driving Agile efficiency through cross-functional collaboration.",
       ],
     },
     {
@@ -166,8 +167,8 @@ export const DATA = {
       location: "Remote",
       title: "Full-stack developer",
       logoUrl: "./mrc.webp",
-      start: "May 2021",
-      end: "Oct 2021",
+      start: "Sep 2021",
+      end: "Aug 2022",
       description:
         "Completed several small projects on freelance platforms, contributing to both frontend and backend solutions by:",
       tasks: [
