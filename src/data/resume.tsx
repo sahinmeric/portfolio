@@ -6,10 +6,10 @@ export const DATA = {
   initials: "SM",
   url: "https://sahinmeric.com",
   location: "Bogotá, CO",
-  locationLink: "https://www.google.com/maps/place/Bogot%C3%A1",
+  locationLink: "https://www.google.com/maps/place/bogota",
   description:
-    "I'm a Full-Stack Developer with 3 years of experience building scalable, user-friendly web apps using React, TypeScript, Node.js, and Python. I focus on writing clean, efficient code and creating intuitive digital experiences.",
-  summary: "Full-Stack Developer specializing in React, JavaScript, TypeScript, and Python/Django[cite: 1]. Experienced in building high-performance web applications and collaborating on impactful projects across the full software development lifecycle[cite: 1].",
+    "I'm a Full-Stack Developer with 3 years of experience building scalable, user-friendly web apps using React, TypeScript, Node.js, and Python. I focus on writing clean, efficient code and creating intuitive digital experiences that help businesses grow.",
+  summary: "",
   avatarUrl: "/me2.png",
   hardSkills: [
     "React",
@@ -55,6 +55,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
+    //{ href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "sahinmeric22@gmail.com",
@@ -64,29 +65,34 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/sahinmeric",
         icon: Icons.github,
+
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://linkedin.com/in/sahinmeric",
         icon: Icons.linkedin,
+
         navbar: true,
       },
       X: {
         name: "X",
         url: "https://x.com/smericdev",
         icon: Icons.x,
+
         navbar: true,
       },
       email: {
         name: "Send Email",
         url: "mailto:sahinmeric22@gmail.com",
         icon: Icons.email,
+
         navbar: true,
       },
+
       WhatsApp: {
         name: "Whatsapp",
-        url: "https://wa.me/573027810863",
+        url: "https://wa.me/+573027810863",
         icon: Icons.whatsapp,
         navbar: true,
       },
@@ -103,16 +109,16 @@ export const DATA = {
       logoUrl: "./vgm.jpg",
       start: "Nov 2024",
       end: "Present",
-      description: "Contributed to the development of a global car leasing platform by:[cite: 1]",
+      description:
+        "Contributed to the development of a global car leasing platform by:",
       tasks: [
-        "Building scalable, reusable React components for responsive interfaces.[cite: 1]",
-        "Migrating from Class components to functional components.[cite: 1]",
-        "Integrating Apollo GraphQL and optimizing performance using useMemo, useCallback, and effective caching strategies.[cite: 1]",
-        "Improving UI responsiveness and accessibility using CSS and Reactstrap.[cite: 1]",
-        "Writing unit tests for components using Jest.[cite: 1]",
-        "Collaborating via code reviews, pair programming, and Agile ceremonies.[cite: 1]",
-        "Maintaining code quality with clean code, SOLID, KISS, DRY principles.[cite: 1]",
-        "Backend improvements by implementing new logic, updating APIs with Python/Django.[cite: 1]",
+        "Building scalable, reusable React components for dynamic and responsive interfaces.",
+        "Migrating to functional components with React Hooks for better maintainability.",
+        "Integrating Apollo GraphQL and optimizing performance using useMemo, useCallback, and effective caching strategies.",
+        "Improving UI responsiveness and accessibility using CSS.",
+        "Writing unit tests for components using Jest.",
+        "Collaborating through code reviews, pair programming, and Agile ceremonies.",
+        "Maintaining high code quality with clean code, SOLID, KISS, DRY principles.",
       ],
     },
     {
@@ -124,14 +130,15 @@ export const DATA = {
       logoUrl: "./medisprout_logo.jpg",
       start: "Nov 2022",
       end: "Jun 2024",
-      description: "Contributed to a U.S.-based startup's mental healthcare platform by:[cite: 1]",
+      description:
+        "Contributed to a U.S.-based startup's mental healthcare platform by:",
       tasks: [
-        "Building scalable, maintainable React components using hooks.[cite: 1]",
-        "Increasing code robustness with TypeScript and Jest.[cite: 1]",
-        "Optimizing app performance, state management with React-query.[cite: 1]",
-        "Designing responsive, mobile-friendly UI with Material UI.[cite: 1]",
-        "Integrating RESTful APIs (Twilio, Stripe..) for seamless data flow.[cite: 1]",
-        "Maintaining high-quality Agile workflows with Git and Bitbucket.[cite: 1]",
+        "Building scalable, maintainable React components using hooks.",
+        "Increasing code robustness with TypeScript and Jest.",
+        "Optimizing app performance, state management with React-query.",
+        "Designing responsive, mobile-friendly UI with Material UI.",
+        "Integrating RESTful APIs (Twilio, Stripe..) for seamless data flow.",
+        "Maintaining high-quality Agile workflows with Git and Bitbucket.",
       ],
     },
     {
@@ -143,13 +150,14 @@ export const DATA = {
       logoUrl: "./globant-logo-dark.svg",
       start: "Aug 2022",
       end: "Nov 2022",
-      description: "Contributed to high-quality gaming experiences and software stability by:[cite: 1]",
+      description:
+        "Contributed to high-quality gaming experiences and software stability by:",
       tasks: [
-        "Executing manual game testing to identify critical gameplay and UI defects.[cite: 1]",
-        "Managing the bug lifecycle in Jira with proper documentation.[cite: 1]",
-        "Documenting test cases in TestRail and maintaining technical specs.[cite: 1]",
-        "Validating performance and functionality on console hardware.[cite: 1]",
-        "Driving Agile efficiency through cross-functional collaboration.[cite: 1]",
+        "Executing manual game testing to identify critical gameplay and UI defects.",
+        "Managing the bug lifecycle in Jira with proper documentation.",
+        "Documenting test cases in TestRail and maintaining technical specs.",
+        "Validating performance and functionality on console hardware.",
+        "Driving Agile efficiency through cross-functional collaboration.",
       ],
     },
     {
@@ -161,12 +169,13 @@ export const DATA = {
       logoUrl: "./mrc.webp",
       start: "Sep 2021",
       end: "Aug 2022",
-      description: "Completed several small projects on freelance platforms, contributing to both frontend and backend solutions by:[cite: 1]",
+      description:
+        "Completed several small projects on freelance platforms, contributing to both frontend and backend solutions by:",
       tasks: [
-        "Fixing bugs and enhancing web app performance.[cite: 1]",
-        "Updating versions and managing database backups and transfers.[cite: 1]",
-        "Setting up servers and deploying applications.[cite: 1]",
-        "Developing websites for small businesses for a yoga instructor, a carpenter, and personal portfolio sites.[cite: 1]",
+        "Fixing bugs and enhancing web app performance.",
+        "Updating versions and managing database backups and transfers.",
+        "Setting up servers and deploying applications.",
+        "Developing websites for small businesses for a yoga instructor, a carpenter, and personal portfolio sites.",
       ],
     },
     {
@@ -178,11 +187,12 @@ export const DATA = {
       logoUrl: "./etermax.svg",
       start: "Jan 2016",
       end: "May 2021",
-      description: "Led process improvements by analyzing HelpDesk data and collaborating with developers to resolve technical issues.",
+      description:
+        "Led process improvements by analyzing HelpDesk data, generating performance reports, and collaborating with developers to resolve technical issues and enhance user support.",
       tasks: [
         "Aided management in defining business objectives, requirements, and performance metrics.",
-        "Analyzed HelpDesk data, generated reports, and tracked KPIs to drive process improvements.",
-        "Collaborated with developers to resolve technical issues and enhance user support.",
+        "Analyzed HelpDesk data, generated reports, and tracked key performance indicators (KPIs) to drive process improvements.",
+        "Collaborated closely with developers to resolve technical issues and develop effective solutions to enhance user support.",
       ],
     },
     {
@@ -194,11 +204,13 @@ export const DATA = {
       logoUrl: "./teksko.png",
       start: "Jan 2015",
       end: "Jan 2016",
-      description: "Provided technical support and troubleshooting for hardware and software issues.",
+      description:
+        "Provided technical support and troubleshooting for hardware and software issues by:",
       tasks: [
         "Assisting users with technical inquiries and resolving issues promptly.",
         "Configuring and maintaining computer networks and hardware components.",
         "Performing software installations, upgrades, and updates.",
+        "Training end-users on software applications and best practices.",
       ],
     },
     {
@@ -210,7 +222,8 @@ export const DATA = {
       logoUrl: "./aster.png",
       start: "Jan 2014",
       end: "Jan 2015",
-      description: "Managed order timelines and developed manufacturing strategies.",
+      description:
+        "Managed order timelines, developed cost-effective manufacturing strategies, and ensured timely delivery by coordinating schedules and client expectations.",
       tasks: [
         "Collaborated with clients to define order scopes and timelines.",
         "Ensured on-time delivery through effective schedule management.",
@@ -220,28 +233,51 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Ude Cataluña - Colombia",
+      school: "UdeCataluña",
       href: "https://www.ucatalunya.edu.co/",
-      degree: "Ethical Hacking",
-      description: "Acquired practical skills in cybersecurity, penetration testing, and ethical hacking.[cite: 1]",
+      degree: "Ethical Hacking (Red, Blue & Purple Team)",
+      description:
+        "Acquired practical skills in cybersecurity, penetration testing, and ethical hacking to identify and address security vulnerabilities.",
       logoUrl: "/ude.png",
       start: "2024",
       end: "2024",
     },
     {
-      school: "Holberton Uruguay",
+      school: "UdeCataluña",
+      href: "https://www.ucatalunya.edu.co/",
+      degree: "Project Management",
+      description:
+        "Developed expertise in planning, executing, and managing projects effectively, with a focus on resource allocation and timeline management.",
+      logoUrl: "/ude.png",
+      start: "2024",
+      end: "2024",
+    },
+    {
+      school: "Holberton Schools",
       href: "https://holbertonschool.uy/",
-      degree: "Full-stack Software Development",
-      description: "Completed an intensive program focused on algorithms, databases, and system design.[cite: 1]",
+      degree: "Full-Stack Software Development",
+      description:
+        "Completed an intensive program focused on full-stack software development, including algorithms, databases, and system design.",
       logoUrl: "/holberton.png",
       start: "2021",
       end: "2022",
     },
     {
-      school: "Marmara Uni. - Turkey",
+      school: "Çorlu University",
+      href: "",
+      degree: "Associate's degree of Computer Technology",
+      description:
+        "Focused on networking, hardware, and systems administration, gaining hands-on experience in configuring and maintaining computer networks and hardware components.",
+      logoUrl: "/namik.jpg",
+      start: "2014",
+      end: "2016",
+    },
+    {
+      school: "Marmara University",
       href: "https://marmara.edu.tr",
-      degree: "B.Sc. in Textile & Education",
-      description: "Gained a strong foundation in technologies, manufacturing processes, and materials engineering.[cite: 1]",
+      degree: "Bachelor's Degree of Textile Engineering",
+      description:
+        "Gained a strong foundation in textile technologies, manufacturing processes, and materials engineering.",
       logoUrl: "/marmara.png",
       start: "2005",
       end: "2009",
@@ -253,13 +289,34 @@ export const DATA = {
       href: "https://github.com/sahinmeric/social-support-app",
       dates: "2025",
       active: true,
-      description: "Production-ready government social support application with AI-powered writing assistance.[cite: 1]",
+      description:
+        "Production-ready government social support application with AI-powered writing assistance. Multi-step form wizard with React, TypeScript, Material UI, OpenAI GPT-3.5, i18n (EN/AR), RTL support, WCAG 2.1 AA accessibility, and 87% test coverage.",
       technologies: [
-        "React", "TypeScript", "Vite", "Material UI", "OpenAI GPT-3.5", "i18n", "Jest", "Cypress", "WCAG 2.1 AA",
+        "React",
+        "TypeScript",
+        "Vite",
+        "Material UI",
+        "OpenAI GPT-3.5",
+        "i18n",
+        "Jest",
+        "React Testing Library",
+        "Cypress",
+        "WCAG 2.1 AA",
+        "Accessibility",
+        "RTL Support",
+        "CI/CD with GitHub",
       ],
       links: [
-        { type: "Live", href: "https://sahinmeric.github.io/social-support-app/", icon: <Icons.globe className="size-3" /> },
-        { type: "Source", href: "https://github.com/sahinmeric/social-support-app", icon: <Icons.github className="size-3" /> },
+        {
+          type: "Live",
+          href: "https://sahinmeric.github.io/social-support-app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahinmeric/social-support-app",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "/ssa.gif",
       video: "",
@@ -269,15 +326,201 @@ export const DATA = {
       href: "https://github.com/sahinmeric/demand-forecast",
       dates: "2025",
       active: true,
-      description: "Forecasting platform for uploading, validating, and generating product demand forecasts with confidence intervals.[cite: 1]",
+      description:
+        "A full-stack forecasting platform for uploading, validating, and analyzing sales data with interactive charts and admin controls.Built with React, TypeScript, Node.js, PostgreSQL, and deployed on Railway using Docker.",
       technologies: [
-        "React", "TypeScript", "Vite", "Material UI", "Node.js", "Express", "Prisma ORM", "PostgreSQL", "JWT", "Docker",
+        "React",
+        "TypeScript",
+        "Vite",
+        "Material UI",
+        "Node.js",
+        "Express",
+        "Prisma ORM",
+        "PostgreSQL",
+        "JWT",
+        "Docker",
+        "Docker Compose",
+        "CI/CD with GitHub and Railway",
       ],
       links: [
-        { type: "Live", href: "https://demand-forecast-production-6d66.up.railway.app/", icon: <Icons.globe className="size-3" /> },
-        { type: "Source", href: "https://github.com/sahinmeric/demand-forecast", icon: <Icons.github className="size-3" /> },
+        {
+          type: "Live",
+          href: "https://demand-forecast-production-6d66.up.railway.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahinmeric/demand-forecast",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "/demand_forecast.gif",
+      video: "",
+    },
+    {
+      title: "tic-tac-toe",
+      href: "https://tic-tac-toe-game-df9b7.web.app/",
+      dates: "2024",
+      active: true,
+      description:
+        "A web-based Tic-Tac-Toe game built with React, TypeScript, and Firebase for real-time multiplayer support.",
+      technologies: [
+        "React",
+        "Typescript",
+        "Material UI",
+        "Firebase Realtime Database",
+      ],
+      links: [
+        {
+          type: "Live",
+          href: "https://tic-tac-toe-game-df9b7.web.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahinmeric/tic-tac-toe",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/tic_tac_toe.gif",
+      video: "",
+    },
+    {
+      title: "Minstagram",
+      href: "https://minstagram1.web.app/",
+      dates: "2024",
+      active: true,
+      description:
+        "Minstagram is a full-stack photo-sharing application developed using React, TypeScript, Material UI, Firebase, and Firestore. This application allows users to register, upload, like, comment on, and report photos.",
+      technologies: [
+        "React",
+        "Typescript",
+        "Material UI",
+        "Firebase Firestore",
+        "Firebase Storage",
+        "Firebase Authentication",
+        "Firebase Hosting",
+      ],
+      links: [
+        {
+          type: "Live",
+          href: "https://minstagram1.web.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahinmeric/minstagram",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/minstagram.gif",
+      video: "",
+    },
+    {
+      title: "Anime finder",
+      href: "https://anime-finder-tan.vercel.app",
+      dates: "2024",
+      active: true,
+      description:
+        "Anime Finder is a simple web application that allows users to search for anime using the AniList GraphQL API. It displays information such as the anime's title, description, episode count, genres, and cover image.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Tailwind CSS",
+        "GraphQL",
+        "Apollo Client",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Live",
+          href: "https://anime-finder-tan.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahinmeric/anime-finder",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/anime_find.gif",
+      video: "",
+    },
+    {
+      title: "Network-IT",
+      href: "https://silver-kringle-2bef55.netlify.app/",
+      dates: "2024",
+      active: true,
+      description:
+        "Network-IT is a web platform that connects IT professionals seeking community, collaboration, and career opportunities, especially for those relocating. It offers a central hub for users to network, join local groups, share opportunities, and access insights into the tech landscape of their new locations.",
+      technologies: [
+        "React",
+        "Typescript",
+        "Material UI",
+        "Node.js",
+        "Netlify",
+      ],
+      links: [
+        {
+          type: "Live",
+          href: "https://silver-kringle-2bef55.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahinmeric/network-it",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/network_it.gif",
+      video: "",
+    },
+    {
+      title: "React Movie DB",
+      href: "https://wonderful-wilson-c25069.netlify.app/",
+      dates: "2023",
+      active: true,
+      description:
+        "React Movie Database is a React and TypeScript project that uses an open API to let users search and find movie information.",
+      technologies: ["React", "Typescript", "Movie DB API", "Netlify"],
+      links: [
+        {
+          type: "Live",
+          href: "https://wonderful-wilson-c25069.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahinmeric/reactmoviedb",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/react_movie_db.gif",
+      video: "",
+    },
+    {
+      title: "Invocing App",
+      href: "https://github.com/sahinmeric/django_project",
+      dates: "2024",
+      active: true,
+      description:
+        "A robust full-stack application designed to efficiently handle CRUD operations.",
+      technologies: [
+        "React",
+        "Typescript",
+        "Material UI",
+        "Python",
+        "Django",
+        "SQL Server",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sahinmeric/django_project",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/noimage.png",
       video: "",
     },
     {
@@ -285,15 +528,83 @@ export const DATA = {
       href: "https://github.com/sahinmeric/konecta-crm-app",
       dates: "2024",
       active: true,
-      description: "CRM solution featuring role-based access control, employee/request management, and secure JWT authentication.[cite: 1]",
+      description:
+        "Konecta CRM is a customer relationship management application that allows users to manage and track interactions with clients effectively. This project provides features for user registration, login, and managing employee data.",
       technologies: [
-        "React", "Material UI", "Node.js", "Express", "Sequelize ORM", "SQLite", "JWT", "Docker",
+        "React",
+        "Material UI",
+        "Node.js",
+        "Express",
+        "Sequelize",
+        "SQLite",
+        "JWT",
+        "Docker",
+        "Docker Compose",
       ],
       links: [
-        { type: "Live", href: "https://celebrated-bubblegum-b0c618.netlify.app/register", icon: <Icons.globe className="size-3" /> },
-        { type: "Source", href: "https://github.com/sahinmeric/konecta-crm-app", icon: <Icons.github className="size-3" /> },
+        {
+          type: "Live",
+          href: "https://celebrated-bubblegum-b0c618.netlify.app/register",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahinmeric/konecta-crm-app",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "/crm_app.gif",
+      video: "",
+    },
+    {
+      title: "POKE Api",
+      href: "https://github.com/sahinmeric/pokeAPI",
+      dates: "2024",
+      active: true,
+      description:
+        "This project is a simple Node.js-based API built using the NestJS framework. It connects to the PokéAPI to fetch data about Pokémon, such as their names, types, and translated type names.",
+      technologies: ["Node.js", "NestJS"],
+      links: [
+        {
+          type: "Live",
+          href: "https://pokeapi-nest.onrender.com/api/pokemon",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahinmeric/pokeAPI",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/noimage.png",
+      video: "",
+    },
+    {
+      title: "PYME Registration",
+      href: "https://github.com/sahinmeric/register_page",
+      dates: "2024",
+      active: true,
+      description:
+        "A full-stack web application consisting of a frontend built with Angular and a backend built with .NET. The application allows users to register with their company details, including NIT, email, phone number, and password. Upon successful registration, a JWT token is generated and stored in session storage for subsequent authentication.",
+      technologies: [
+        "Angular",
+        "TypeScript",
+        "Tailwind CSS",
+        "Material UI",
+        ".NET 8.0",
+        "C#",
+        "JWT",
+        "Azure",
+        "Netlify",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sahinmeric/register_page",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/register.png",
       video: "",
     },
   ],
@@ -302,21 +613,78 @@ export const DATA = {
       title: "Ethical Hacking Certified Associate (EHCA)",
       dates: "Oct 2024",
       location: "CertJoin",
-      description: "Certifies foundational knowledge in ethical hacking and technical proficiency to conduct penetration testing.[cite: 1]",
+      description:
+        "The Ethical Hacking Certified Associate (EHCA) badge certifies your foundational knowledge in ethical hacking. It serves as evidence of your comprehensive understanding and technical proficiency to conduct penetration testing on an organization's computer infrastructure. By earning this badge, you demonstrate your capability to identify vulnerabilities, assess potential risks, and implement effective security measures to protect sensitive information and ensure the integrity of computer systems.",
       image: "/certjoin.png",
+      win: "",
+      mlh: "",
       links: [
-        { title: "Certificate", icon: <Icons.globe className="h-4 w-4" />, href: "/certificate_certjoin.png" },
+        {
+          title: "Certificate",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "/certificate_certjoin.png",
+        },
       ],
     },
     {
       title: "Google Cybersecurity Professional Certificate",
-      dates: "Aug 2024",
+      dates: "August 2024",
       location: "Coursera",
-      description: "Covers Python, Linux, SQL, SIEM tools, and IDS to identify risks and mitigate vulnerabilities.[cite: 1]",
+      description:
+        "Include hands-on, practicebased assessments and are designed to prepare them for entry-level roles in cybersecurity. They are competent in beginner-level Python, Linux, SQL, Security Information and Event Management (SIEM) tools, and Intrusion Detection Systems (IDS). They know how to identify common cybersecurity risks, threats, and vulnerabilities, as well as the techniques to mitigate.",
       image: "/coursera.png",
+      win: "",
+      mlh: "",
       links: [
-        { title: "Certificate", icon: <Icons.globe className="h-4 w-4" />, href: "/coursera_cybersecurity.png" },
+        {
+          title: "Certificate",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "/coursera_cybersecurity.png",
+        },
       ],
     },
+    {
+      title: "Ethical Hacking (Red, Blue & Purple Team)",
+      dates: "July 2024",
+      location: "UdeCataluña",
+      description:
+        "Understand the concepts, types, and phases of Ethical Hacking. Learn about tools, techniques, and methodologies that help identify vulnerabilities and information security flaws within an organization, with a focus on professional ethics. Define offensive and defensive security as represented by highly sought-after roles in the industry (Red, Blue & Purple Team).",
+      image: "/ude.png",
+      win: "",
+      mlh: "",
+      links: [
+        {
+          title: "Certificate",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "/udecataluna_hacking_etico.png",
+        },
+      ],
+    },
+    // {
+    //   title: "Project Management",
+    //   dates: "July 2024",
+    //   location: "UdeCataluña",
+    //   description:
+    //     "La gerencia de proyectos es una de las habilidades más solicitadas en las empresas, porque integra los diferentes procesos para llevar a cabo una labor, en la cual debe haber un equilibrio entre el alcance, cronograma y costo para la realización exitosa de este. Este diplomado se basa en el cumplimiento de esta necesidad y con total apoyo de los lineamientos del Project Management Institute (PMI)® a través sus estándares y esquemas de certificación.",
+    //   image: "/ude.png",
+    //   win: "",
+    //   mlh: "",
+    // },
+    // {
+    //   title: "Full-stack Software Development",
+    //   dates: "July 2022",
+    //   location: "Holberton Schools - Uruguay",
+    //   description: "",
+    //   image: "/holberton.png",
+    //   win: "",
+    //   mlh: "",
+    //   links: [
+    //     {
+    //       title: "Certificate",
+    //       icon: <Icons.globe className="h-4 w-4" />,
+    //       href: "/holberton.png",
+    //     },
+    //   ],
+    // },
   ],
 } as const;
