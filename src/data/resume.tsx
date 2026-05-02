@@ -262,20 +262,20 @@ export const DATA = {
       start: "2021",
       end: "2022",
     },
-    {
-      school: "Çorlu University",
-      href: "",
-      degree: "Associate's degree of Computer Technology",
-      description:
-        "Focused on networking, hardware, and systems administration, gaining hands-on experience in configuring and maintaining computer networks and hardware components.",
-      logoUrl: "/namik.jpg",
-      start: "2014",
-      end: "2016",
-    },
+    // {
+    //   school: "Çorlu University",
+    //   href: "",
+    //   degree: "Associate's degree of Computer Technology",
+    //   description:
+    //     "Focused on networking, hardware, and systems administration, gaining hands-on experience in configuring and maintaining computer networks and hardware components.",
+    //   logoUrl: "/namik.jpg",
+    //   start: "2014",
+    //   end: "2016",
+    // },
     {
       school: "Marmara University",
       href: "https://marmara.edu.tr",
-      degree: "Bachelor's Degree of Textile Engineering",
+      degree: "B.Sc. in Textile & Education",
       description:
         "Gained a strong foundation in textile technologies, manufacturing processes, and materials engineering.",
       logoUrl: "/marmara.png",
