@@ -286,6 +286,40 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Alerta — IoT Door Security",
+      href: "https://sahinmeric.github.io/alerta-landing/",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "End-to-end residential security system for apartment buildings in Colombia: Zigbee door sensors, custom ESP32 + CC2652P hub firmware written in C++, and a multi-tenant Python/FastAPI backend that delivers Telegram alerts with resident confirmation and automatic guard escalation. Includes an interactive browser simulation of the live alert flow. Source is private.",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "C++",
+        "PlatformIO",
+        "ESP32",
+        "Zigbee",
+        "CC2652P",
+        "SQLite",
+        "Telegram Bot API",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Railway",
+        "TLS / Cert Pinning",
+        "CI/CD with GitHub Actions",
+      ],
+      links: [
+        {
+          type: "Case Study",
+          href: "https://sahinmeric.github.io/alerta-landing/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/alerta.png",
+      video: "",
+    },
+    {
       title: "Social Support App",
       href: "https://github.com/sahinmeric/social-support-app",
       dates: "2025",
