@@ -45,11 +45,10 @@ export default function Page() {
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade
-              key={work.company}
+              key={`${work.company}-${work.title}-${work.start}`}
               delay={BLUR_FADE_DELAY * 6 + id * 0.05}
             >
               <ResumeCard
-                key={work.company}
                 logoUrl={work.logoUrl}
                 altText={work.company}
                 title={work.company}
@@ -92,15 +91,27 @@ export default function Page() {
         <BlurFade delay={BLUR_FADE_DELAY * 9}>
           <h2 className="text-xl font-bold">Hard Skills</h2>
         </BlurFade>
-        <div className="flex flex-wrap gap-1">
-          {DATA.hardSkills.map((skill, id) => (
-            <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-              <Badge key={skill}>{skill}</Badge>
+        {Object.entries(DATA.hardSkills).map(([tier, skills], tierId) => (
+          <div key={tier} className="mt-2 first:mt-0">
+            <BlurFade delay={BLUR_FADE_DELAY * 9.5 + tierId * 0.05}>
+              <h3 className="text-xs font-semibold text-muted-foreground">
+                {tier}
+              </h3>
             </BlurFade>
-          ))}
-        </div>
+            <div className="flex flex-wrap gap-1 mt-1">
+              {skills.map((skill, id) => (
+                <BlurFade
+                  key={skill}
+                  delay={BLUR_FADE_DELAY * 10 + tierId * 0.2 + id * 0.05}
+                >
+                  <Badge>{skill}</Badge>
+                </BlurFade>
+              ))}
+            </div>
+          </div>
+        ))}
       </section>
-      <section id="skills">
+      <section id="soft-skills">
         <BlurFade delay={BLUR_FADE_DELAY * 9}>
           <h2 className="text-xl font-bold">Soft Skills</h2>
         </BlurFade>
@@ -149,7 +160,7 @@ export default function Page() {
           ))}
         </div>
       </section>
-      <section id="hackathons">
+      <section id="certificates">
         <BlurFade delay={BLUR_FADE_DELAY * 9}>
           <h2 className="text-xl font-bold">Courses & Certificates</h2>
         </BlurFade>
